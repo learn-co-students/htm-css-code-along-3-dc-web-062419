@@ -39,7 +39,7 @@ figcaption {
 
 #logo { /* select elements with id="logo" */
   background: aqua;
-  align-content: center;
+
 
 }
 
@@ -47,12 +47,12 @@ figcaption {
 
 #logo h1 { /* select <h1> if inside the id="logo" */
   font-family: 'Clicker Script', cursive;
-  align-text: center;
+
 }
 
 #logo h2 {
   font-family: 'Elsie Swash Caps', cursive;
-  align-text: center;
+
 }
 
 /* Psuedo selector */

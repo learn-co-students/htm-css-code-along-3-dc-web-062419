@@ -39,7 +39,7 @@ figcaption {
 
 #logo { /* select elements with id="logo" */
   background: aqua;
-  text-align: center
+  align-text: center;
 }
 
 /* Descendent selector */

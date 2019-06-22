@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps:400,900&display=swap');
+
+/* This is a comment! 
+Omg it's a multi line
+co
+mm
+ent! */ 
+
+/* CSS Syntax:
+
+selector {
+    property: value;
+    property: value;
+}
+*/
+
+/* Type selector */
+ 
+p { /* select all <p> */ 
+    font-size: 1em;  /* can be pixels, or ?pt (not the same in each browser, or 100%, 1em (different with each font) 16px = 1em (16/16) */
+    line-height: 1.5em;
+}
+
+figcaption {
+    /* font-weight: normal;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    font-family: Georgia, "New Times Roman", serif; */
+    font: normal 0.75em/1.5em 'Elsie Swash Caps', cursive;
+    color: rgba(113, 195, 215, 1);
+    text-align: center;
+}
+
+/* Class selector (applied to as many elements as you like */
+
+.milk-text {
+    font: bold 2.6 em 'Elsie Swash Caps', cursive;
+    color: white;
+    text-shadow: 0 2px 3px #000;
+}
+
+/* ID selector (apply to one unique element per page */
+
+#logo { 
+    background: aqua;
+}
+
+/* descendent selector */
+
+#logo h1 { /* will only style h1s inside #logo */  
+    font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 {
+    font-family: 'Elsie Swash Caps', cursive;
+}
+
+/* pseudo selector */ 
+
+#details a:link, #details a:visited { /*this is a descendant, pseudo AND compound selectors */
+    color: black;
+    text-decoration: none;
+}
+
+#details a:hover {
+    color:black;
+    text-decoration:underline; 
+}
+
+#details a:active {
+    color: red;
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+
+p {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+figcaption {
+/*  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif;  New Times Roman he says? */
+  font: normal 0.75em/1.5em Georgia, "New Times Roman", serif;
+  color: #CCC;
+}
+
+.milk-text {
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color:white;
+  text-shadow: 0 2px 3px #000;
+}
+
+
+#logo{
+  background:aqua;
+}
+
+#logo h1{
+  font-family: Roboto, Sans-Serif;
+}
+
+#logo h2{
+  font-family: "Comic Sans MS", Sans-Serif;
+}
+
